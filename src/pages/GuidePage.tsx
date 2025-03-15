@@ -55,7 +55,7 @@ const GuidePage = () => {
       </section>
       
       {/* Section 2: The Full Guide */}
-      <section className="w-full py-12 bg-white">
+      <section className="w-full py-12 bg-[#fafafa]">
         <div className="max-w-4xl mx-auto px-4">
           {/* Guide Title */}
           <motion.h2
@@ -142,7 +142,7 @@ const GuidePage = () => {
           </div>
           
           {/* Closing CTA */}
-          <div className="text-center mb-16">
+          <div className="text-center mb-16 bg-white p-8 rounded-lg">
             <h3 className="text-2xl font-bold text-[#064088] mb-4">Want help with these steps?</h3>
             <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
               We at Interlink help students like you every day. We've guided thousands of students through the process of easily studying in the U.S. If you want friendly support and clear guidance, check out more info here:
