@@ -58,7 +58,7 @@ const GuidePage = () => {
       </section>
       
       {/* Section 2: The Full Guide */}
-      <section className="w-full py-12 bg-[#fafafa]">
+      <section className="w-full py-12 bg-[#fffbf2]">
         <div className="max-w-4xl mx-auto px-4">
           {/* Guide Title */}
           <motion.h2
@@ -89,8 +89,10 @@ const GuidePage = () => {
             <h3 className="text-2xl font-bold text-[#064088] mb-4">1. Find the Right Program</h3>
             <p className="text-gray-700 mb-4">Look for English programs with these benefits:</p>
             <ul className="list-disc pl-6 mb-4 space-y-2 text-gray-700">
-              <li>Small classes (10-12 students).</li>
-              <li>Classes that combine grammar, reading, speaking, and writing together (no boring grammar-only classes!).</li>
+              <li><span className="font-semibold">No TOEFL Required</span> - Enter university without standardized tests.</li>
+              <li><span className="font-semibold">Small Classes & Personalized Support</span> - Get the attention you deserve.</li>
+              <li><span className="font-semibold">University Preparation & Pathway</span> - Learn skills for academic success.</li>
+              <li><span className="font-semibold">Cultural & Academic Support</span> - Adjust easily to life in America.</li>
               <li>Choose safe, friendly, and fun cities where you'll easily make friends and enjoy your life.</li>
             </ul>
             <p className="text-gray-700 italic">Pro tip: Programs in smaller cities often give you the best experience!</p>
@@ -147,36 +149,43 @@ const GuidePage = () => {
       </section>
       
       {/* Want Help with These Steps? */}
-      <section className="w-full py-16 bg-white">
+      <section className="w-full py-16 bg-[#fcfaf5]">
         <div className="max-w-6xl mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center justify-between">
-            {/* Left Column - Text Content */}
-            <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
-              <div className="flex items-center mb-4">
-                <FaHandshake className="text-[#064088] text-4xl mr-3" />
-                <h2 className="text-3xl md:text-4xl font-bold text-[#064088]">
-                  Want Help with These Steps?
-                </h2>
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="bg-white rounded-xl shadow-md p-8 md:p-12"
+          >
+            <div className="flex flex-col md:flex-row items-center justify-between">
+              {/* Left Column - Text Content */}
+              <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
+                <div className="flex items-center mb-4">
+                  <FaHandshake className="text-[#064088] text-4xl mr-3" />
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#064088]">
+                    Want Help with These Steps?
+                  </h2>
+                </div>
+                
+                <p className="text-gray-700 text-lg mb-8 max-w-xl">
+                  At Interlink, we help students like you every day. The process of studying in the U.S. becomes much easier with our expert guidance. Thousands of international students have successfully navigated this journey with our support, and you can too!
+                </p>
+                
+                <div className="flex justify-center md:justify-start">
+                  <button className="px-8 py-4 bg-[#dc5d33] hover:bg-[#c04d28] text-white font-bold text-lg rounded-lg transition-colors shadow-md">
+                    Get Personalized Help
+                  </button>
+                </div>
               </div>
               
-              <p className="text-gray-700 text-lg mb-8 max-w-xl">
-                At Interlink, we help students like you every day. The process of studying in the U.S. becomes much easier with our expert guidance. Thousands of international students have successfully navigated this journey with our support, and you can too!
-              </p>
-              
-              <div className="flex justify-center md:justify-start">
-                <button className="px-8 py-4 bg-[#dc5d33] hover:bg-[#c04d28] text-white font-bold text-lg rounded-lg transition-colors shadow-md">
-                  Get Personalized Help
-                </button>
+              {/* Right Column - Image Placeholder */}
+              <div className="md:w-1/2 flex justify-center">
+                <div className="w-[400px] h-[300px] bg-gray-200 rounded-lg flex items-center justify-center">
+                  <span className="text-gray-500">Happy Students Image Placeholder</span>
+                </div>
               </div>
             </div>
-            
-            {/* Right Column - Image Placeholder */}
-            <div className="md:w-1/2 flex justify-center">
-              <div className="w-[400px] h-[300px] bg-gray-200 rounded-lg flex items-center justify-center">
-                <span className="text-gray-500">Happy Students Image Placeholder</span>
-              </div>
-            </div>
-          </div>
+          </motion.div>
         </div>
       </section>
       

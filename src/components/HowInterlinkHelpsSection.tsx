@@ -28,7 +28,7 @@ const HowInterlinkHelpsSection = () => {
   ];
 
   return (
-    <section className="w-full py-16 bg-[#f5f8fc]">
+    <section className="w-full py-16 bg-[#fffbf2]">
       <div className="max-w-6xl mx-auto px-4">
         {/* Headline */}
         <div className="text-center mb-10">
@@ -65,7 +65,7 @@ const HowInterlinkHelpsSection = () => {
               {benefit.icon}
               
               {/* Benefit Title */}
-              <h3 className="text-xl font-bold text-[#064088] mb-3">{benefit.title}</h3>
+              <h3 className="text-xl font-bold text-[#dc5d33] mb-3">{benefit.title}</h3>
               
               {/* Benefit Description */}
               <p className="text-gray-700">{benefit.description}</p>
@@ -73,17 +73,7 @@ const HowInterlinkHelpsSection = () => {
           ))}
         </div>
         
-        {/* Encouraging CTA */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6, delay: 0.5 }}
-          className="text-center"
-        >
-          <h3 className="text-2xl font-bold text-[#064088]">
-            We've helped thousands of students just like you—let's start your journey together!
-          </h3>
-        </motion.div>
+        {/* Removed the "You're just a few steps away..." text */}
       </div>
     </section>
   );

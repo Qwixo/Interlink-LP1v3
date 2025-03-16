@@ -83,17 +83,7 @@ const YourJourneySection = () => {
           ))}
         </div>
         
-        {/* Empowering CTA */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6, delay: 0.5 }}
-          className="text-center"
-        >
-          <h3 className="text-2xl md:text-3xl font-bold text-[#064088] mb-2">
-            You're just a few steps away from starting your adventure in the U.S.!
-          </h3>
-        </motion.div>
+        {/* Removed the empowering CTA text */}
       </div>
     </section>
   );
