@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import { FaHandshake, FaChevronDown } from 'react-icons/fa';
 import YourJourneySection from '../components/YourJourneySection';
 import HowInterlinkHelpsSection from '../components/HowInterlinkHelpsSection';
-import WhyStudyingIsGameChangerSection from '../components/WhyStudyingIsGameChangerSection';
+import SpeakingEnglishPaysOffSection from '../components/SpeakingEnglishPaysOffSection';
 
 const GuidePage = () => {
   const [isGuideExpanded, setIsGuideExpanded] = useState(false);
@@ -258,11 +258,11 @@ const GuidePage = () => {
       {/* MOVED SECTION: Your Journey to Studying in the U.S. */}
       <YourJourneySection />
       
-      {/* NEW SECTION: How Interlink Helps You */}
-      <HowInterlinkHelpsSection />
+      {/* NEW SECTION: Speaking English Pays Off */}
+      <SpeakingEnglishPaysOffSection />
       
-      {/* NEW SECTION: Why Studying in the U.S. Is a Game-Changer */}
-      <WhyStudyingIsGameChangerSection />
+      {/* EXISTING SECTION: How Interlink Helps You */}
+      <HowInterlinkHelpsSection />
       
       <Footer />
     </div>
