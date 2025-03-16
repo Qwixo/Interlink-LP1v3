@@ -64,8 +64,8 @@ const YourJourneySection = () => {
               transition={{ duration: 0.5, delay: 0.2 + index * 0.1 }}
               className="flex flex-col items-center text-center"
             >
-              {/* Step Number */}
-              <div className="w-12 h-12 rounded-full bg-[#064088] text-white flex items-center justify-center text-xl font-bold mb-4">
+              {/* Step Number - Changed color to #dc5d33 */}
+              <div className="w-12 h-12 rounded-full bg-[#dc5d33] text-white flex items-center justify-center text-xl font-bold mb-4">
                 {step.number}
               </div>
               
@@ -74,16 +74,14 @@ const YourJourneySection = () => {
                 <span className="text-gray-500">{step.imageAlt}</span>
               </div>
               
-              {/* Step Title */}
-              <h3 className="text-xl font-bold text-[#064088] mb-2">{step.title}</h3>
+              {/* Step Title - Changed color to #dc5d33 */}
+              <h3 className="text-xl font-bold text-[#dc5d33] mb-2">{step.title}</h3>
               
               {/* Step Description */}
               <p className="text-gray-700">{step.description}</p>
             </motion.div>
           ))}
         </div>
-        
-        {/* Removed the empowering CTA text */}
       </div>
     </section>
   );
