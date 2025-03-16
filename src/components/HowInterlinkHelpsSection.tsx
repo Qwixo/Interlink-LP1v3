@@ -21,7 +21,7 @@ const HowInterlinkHelpsSection = () => {
     },
     {
       icon: <FaPassport className="text-5xl text-[#064088] mb-4" />,
-      title: "Step 3: Step-by-Step Guidance for Your Student Journey",
+      title: "Step 3: Step-by-Step Assistance for Your Student Journey",
       shortTitle: "Step 3: Complete Guidance",
       description: "We handle the process with you—visas, applications, and support."
     },

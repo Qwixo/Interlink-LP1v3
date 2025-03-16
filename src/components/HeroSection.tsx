@@ -8,9 +8,9 @@ const HeroSection = () => {
   const { formData, errors, handleChange, handleSubmit } = useFormSubmission();
 
   return (
-    <AuroraBackground className="px-4 py-12 md:py-20">
+    <AuroraBackground className="px-4 pt-4 pb-12 md:pt-6 md:pb-20">
       <div className="max-w-6xl mx-auto px-4 flex flex-col items-center z-10 relative">
-        {/* Logo */}
+        {/* Logo - reduced top padding by 70% */}
         <motion.div 
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}

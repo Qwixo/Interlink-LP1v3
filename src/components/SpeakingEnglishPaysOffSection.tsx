@@ -12,7 +12,7 @@ const SpeakingEnglishPaysOffSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-3xl md:text-4xl font-bold text-center text-[#064088] mb-12"
+          className="text-3xl md:text-4xl font-bold text-center text-[#064088] mb-16"
         >
           Speaking English Pays Off – Here's the Proof
         </motion.h2>
@@ -47,16 +47,18 @@ const SpeakingEnglishPaysOffSection = () => {
                 
                 {/* English Speakers Bar */}
                 <div className="flex flex-col items-center">
-                  {/* Value label */}
+                  {/* Salary Range - Only showing the increase info */}
                   <div className="mb-4 text-center">
-                    <span className="text-xl font-bold text-[#dc5d33]">~860 USD</span>
+                    {/* Removed "$800 - $1,200" text */}
                     <span className="text-sm text-gray-600 block">per month</span>
                   </div>
                   
-                  {/* Increase Label */}
-                  <div className="absolute -top-10">
-                    <div className="bg-[#064088] text-white px-3 py-1 rounded-full font-bold shadow-md">
-                      ↑ 70% Increase
+                  {/* Increase Label - Moved outside the bar */}
+                  <div className="absolute -top-12 right-0">
+                    <div className="bg-[#dc5d33] text-white px-4 py-2 rounded-lg font-bold shadow-md flex flex-col items-center">
+                      <span>↑ 70% Increase</span>
+                      {/* Added spacing between texts */}
+                      <span className="text-xs mt-1">(based on industry)</span>
                     </div>
                   </div>
                   
