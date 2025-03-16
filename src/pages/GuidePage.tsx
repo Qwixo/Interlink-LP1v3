@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Footer from '../components/Footer';
+import { FaHandshake } from 'react-icons/fa';
 
 const GuidePage = () => {
   return (
@@ -140,16 +141,39 @@ const GuidePage = () => {
               <li>Join the orientation, make new friends, and start enjoying your new life in the U.S.!</li>
             </ul>
           </div>
-          
-          {/* Closing CTA */}
-          <div className="text-center mb-16 bg-white p-8 rounded-lg">
-            <h3 className="text-2xl font-bold text-[#064088] mb-4">Want help with these steps?</h3>
-            <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
-              We at Interlink help students like you every day. We've guided thousands of students through the process of easily studying in the U.S. If you want friendly support and clear guidance, check out more info here:
-            </p>
-            <button className="px-8 py-3 bg-[#e65c00] hover:bg-[#d45500] text-white font-medium rounded-lg transition-colors">
-              Learn More
-            </button>
+        </div>
+      </section>
+      
+      {/* NEW SECTION: Want Help with These Steps? */}
+      <section className="w-full py-16 bg-white">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="flex flex-col md:flex-row items-center justify-between">
+            {/* Left Column - Text Content */}
+            <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
+              <div className="flex items-center mb-4">
+                <FaHandshake className="text-[#064088] text-4xl mr-3" />
+                <h2 className="text-3xl md:text-4xl font-bold text-[#064088]">
+                  Want Help with These Steps?
+                </h2>
+              </div>
+              
+              <p className="text-gray-700 text-lg mb-8 max-w-xl">
+                At Interlink, we help students like you every day. The process of studying in the U.S. becomes much easier with our expert guidance. Thousands of international students have successfully navigated this journey with our support, and you can too!
+              </p>
+              
+              <div className="flex justify-center md:justify-start">
+                <button className="px-8 py-4 bg-[#dc5d33] hover:bg-[#c04d28] text-white font-bold text-lg rounded-lg transition-colors shadow-md">
+                  Get Personalized Help
+                </button>
+              </div>
+            </div>
+            
+            {/* Right Column - Image Placeholder */}
+            <div className="md:w-1/2 flex justify-center">
+              <div className="w-[400px] h-[300px] bg-gray-200 rounded-lg flex items-center justify-center">
+                <span className="text-gray-500">Happy Students Image Placeholder</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
