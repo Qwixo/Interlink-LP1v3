@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Footer from '../components/Footer';
 import { FaHandshake } from 'react-icons/fa';
+import YourJourneySection from '../components/YourJourneySection';
 
 const GuidePage = () => {
   return (
@@ -144,7 +145,7 @@ const GuidePage = () => {
         </div>
       </section>
       
-      {/* NEW SECTION: Want Help with These Steps? */}
+      {/* Want Help with These Steps? */}
       <section className="w-full py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between">
@@ -177,6 +178,9 @@ const GuidePage = () => {
           </div>
         </div>
       </section>
+      
+      {/* MOVED SECTION: Your Journey to Studying in the U.S. */}
+      <YourJourneySection />
       
       <Footer />
     </div>
