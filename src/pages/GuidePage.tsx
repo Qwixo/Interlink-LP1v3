@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import Footer from '../components/Footer';
 import { FaHandshake } from 'react-icons/fa';
 import YourJourneySection from '../components/YourJourneySection';
+import HowInterlinkHelpsSection from '../components/HowInterlinkHelpsSection';
 
 const GuidePage = () => {
   return (
@@ -181,6 +182,9 @@ const GuidePage = () => {
       
       {/* MOVED SECTION: Your Journey to Studying in the U.S. */}
       <YourJourneySection />
+      
+      {/* NEW SECTION: How Interlink Helps You */}
+      <HowInterlinkHelpsSection />
       
       <Footer />
     </div>
