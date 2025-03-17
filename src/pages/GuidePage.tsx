@@ -7,6 +7,7 @@ import HowInterlinkHelpsSection from '../components/HowInterlinkHelpsSection';
 import SpeakingEnglishPaysOffSection from '../components/SpeakingEnglishPaysOffSection';
 import ComparisonTableSection from '../components/ComparisonTableSection';
 import StudyOptionsSection from '../components/StudyOptionsSection';
+import TimelineSection from '../components/TimelineSection';
 
 const GuidePage = () => {
   const [isGuideExpanded, setIsGuideExpanded] = useState(false);
@@ -271,6 +272,9 @@ const GuidePage = () => {
       
       {/* NEW SECTION: Study Options */}
       <StudyOptionsSection />
+      
+      {/* NEW SECTION: Timeline */}
+      <TimelineSection />
       
       <Footer />
     </div>
