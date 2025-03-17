@@ -8,6 +8,7 @@ import SpeakingEnglishPaysOffSection from '../components/SpeakingEnglishPaysOffS
 import ComparisonTableSection from '../components/ComparisonTableSection';
 import StudyOptionsSection from '../components/StudyOptionsSection';
 import TimelineSection from '../components/TimelineSection';
+import TestimonialsSection from '../components/TestimonialsSection';
 
 const GuidePage = () => {
   const [isGuideExpanded, setIsGuideExpanded] = useState(false);
@@ -275,6 +276,9 @@ const GuidePage = () => {
       
       {/* NEW SECTION: Timeline */}
       <TimelineSection />
+      
+      {/* NEW SECTION: Testimonials */}
+      <TestimonialsSection />
       
       <Footer />
     </div>
