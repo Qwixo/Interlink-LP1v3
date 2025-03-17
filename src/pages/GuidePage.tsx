@@ -5,6 +5,7 @@ import { FaHandshake, FaChevronDown } from 'react-icons/fa';
 import YourJourneySection from '../components/YourJourneySection';
 import HowInterlinkHelpsSection from '../components/HowInterlinkHelpsSection';
 import SpeakingEnglishPaysOffSection from '../components/SpeakingEnglishPaysOffSection';
+import ComparisonTableSection from '../components/ComparisonTableSection';
 
 const GuidePage = () => {
   const [isGuideExpanded, setIsGuideExpanded] = useState(false);
@@ -263,6 +264,9 @@ const GuidePage = () => {
       
       {/* EXISTING SECTION: How Interlink Helps You */}
       <HowInterlinkHelpsSection />
+      
+      {/* NEW SECTION: Comparison Table */}
+      <ComparisonTableSection />
       
       <Footer />
     </div>
