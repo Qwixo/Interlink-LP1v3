@@ -7,22 +7,19 @@ const TimelineSection = () => {
       title: "Step 1",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            <span className="font-bold text-[#064088] text-base">Find the Right Program</span> - Look for English programs with these benefits:
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
+            <span className="font-bold text-[#064088] text-base">Take Action – Click Any Button to Get Started</span>
           </p>
-          <div className="mb-8">
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ <span className="font-semibold">No TOEFL Required</span> - Enter university without standardized tests
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ <span className="font-semibold">Small Classes & Personalized Support</span> - Get the attention you deserve
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ <span className="font-semibold">University Preparation & Pathway</span> - Learn skills for academic success
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ <span className="font-semibold">Cultural & Academic Support</span> - Adjust easily to life in America
-            </div>
+          
+          {/* Image Placeholder */}
+          <div className="w-full h-40 bg-gray-100 rounded-lg mb-4 flex items-center justify-center">
+            <span className="text-gray-400 text-sm">Image: Student clicking "Apply Now" button</span>
+          </div>
+          
+          <div className="mb-4">
+            <p className="text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              Don't wait! Click Apply Now or any button on this page to begin your application process.
+            </p>
           </div>
         </div>
       ),
@@ -31,29 +28,20 @@ const TimelineSection = () => {
       title: "Step 2",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            <span className="font-bold text-[#064088] text-base">Plan Your Budget</span> - Here's what you need to think about:
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
+            <span className="font-bold text-[#064088] text-base">Submit Your Application in Minutes</span>
           </p>
-          <div className="mb-8">
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              💰 Tuition: Usually between $1,500 to $2,500 per 5-week term
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              📝 Visa fees: Approximately $350
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              🏠 Housing & food: Typically $600–$1,200/month
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              📚 Books and supplies
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              🎭 Personal expenses (phone, entertainment)
-            </div>
+          
+          {/* Image Placeholder */}
+          <div className="w-full h-40 bg-gray-100 rounded-lg mb-4 flex items-center justify-center">
+            <span className="text-gray-400 text-sm">Image: Student completing application form</span>
           </div>
-          <p className="text-neutral-700 dark:text-neutral-300 text-xs md:text-sm italic">
-            Usually, improving English enough for university takes about one year if you start from a basic level.
-          </p>
+          
+          <div className="mb-4">
+            <p className="text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              Fill in your details and submit your application form. No TOEFL/IELTS required!
+            </p>
+          </div>
         </div>
       ),
     },
@@ -61,22 +49,19 @@ const TimelineSection = () => {
       title: "Step 3",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            <span className="font-bold text-[#064088] text-base">Apply to Your School</span> - Applying isn't complicated. You'll just need:
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
+            <span className="font-bold text-[#064088] text-base">Connect with an Advisor & Get a Personalized Plan</span>
           </p>
-          <div className="mb-8">
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              📝 A school application (usually online)
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              🪪 A copy of your passport
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              🎓 Proof of your school grades
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              💼 Proof of finances (bank statement or sponsor letter)
-            </div>
+          
+          {/* Image Placeholder */}
+          <div className="w-full h-40 bg-gray-100 rounded-lg mb-4 flex items-center justify-center">
+            <span className="text-gray-400 text-sm">Image: Student meeting with advisor</span>
+          </div>
+          
+          <div className="mb-4">
+            <p className="text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              Our team will guide you step by step, helping you create a plan tailored to your goals.
+            </p>
           </div>
         </div>
       ),
@@ -85,19 +70,19 @@ const TimelineSection = () => {
       title: "Step 4",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            <span className="font-bold text-[#064088] text-base">Get Your Visa</span> - Don't worry; it's easier than it sounds!
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
+            <span className="font-bold text-[#064088] text-base">Prepare for Your Arrival – We've Got You Covered</span>
           </p>
-          <div className="mb-8">
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              📄 Show proof you can afford your studies (I-20 form from your school)
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              💻 Complete the I-901 form online and pay the SEVIS fee
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              🗣️ Schedule and attend a simple interview at your local U.S. consulate
-            </div>
+          
+          {/* Image Placeholder */}
+          <div className="w-full h-40 bg-gray-100 rounded-lg mb-4 flex items-center justify-center">
+            <span className="text-gray-400 text-sm">Image: Student preparing travel documents</span>
+          </div>
+          
+          <div className="mb-4">
+            <p className="text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              With our assistance, sort out everything you need – visa, passport, finances, travel – stress-free.
+            </p>
           </div>
         </div>
       ),
@@ -106,34 +91,37 @@ const TimelineSection = () => {
       title: "Step 5",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            <span className="font-bold text-[#064088] text-base">Get Ready for Your Adventure!</span>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
+            <span className="font-bold text-[#064088] text-base">Start Your Journey & Transform Your Future</span>
           </p>
-          <div className="mb-8">
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✈️ Buy your flight ticket
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              🏠 Arrange housing before you arrive (your school can help!)
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              🎉 Join the orientation, make new friends, and start enjoying your new life in the U.S.!
-            </div>
+          
+          {/* Image Placeholder */}
+          <div className="w-full h-40 bg-gray-100 rounded-lg mb-4 flex items-center justify-center">
+            <span className="text-gray-400 text-sm">Image: Student arriving at US campus</span>
           </div>
+          
+          <div className="mb-4">
+            <p className="text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              Once everything is set, you're ready to begin your English-learning adventure and reach your academic goals.
+            </p>
+          </div>
+          <p className="text-neutral-700 dark:text-neutral-300 text-xs md:text-sm font-bold">
+            🚀 Your future starts here. Let's make it happen!
+          </p>
         </div>
       ),
     },
   ];
 
   return (
-    <section className="w-full bg-white">
+    <section className="w-full bg-white pt-16">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-8">
           <h2 className="text-3xl md:text-4xl font-bold text-[#064088] mb-4">
             Your Journey to Studying in the USA
           </h2>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-            Follow these 5 simple steps to make your dream of studying in America a reality.
+            Ready to take the first step? Here's how you can start your journey with INTERLINK:
           </p>
         </div>
         

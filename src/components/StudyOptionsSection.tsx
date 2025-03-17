@@ -4,7 +4,7 @@ import { MapPin, Clock, DollarSign, Users, Check, Laptop, Wifi } from 'lucide-re
 
 const StudyOptionsSection = () => {
   return (
-    <section className="w-full py-20 bg-[#f9fafb]">
+    <section className="w-full py-16 bg-[#f9fafb]">
       <div className="max-w-6xl mx-auto px-4">
         {/* Section Title */}
         <motion.div
@@ -14,7 +14,7 @@ const StudyOptionsSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-10"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-[#064088] mb-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-[#064088] mb-4">
             Study Options – Choose the Best Fit for You
           </h2>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto">
@@ -23,7 +23,7 @@ const StudyOptionsSection = () => {
         </motion.div>
         
         {/* Comparison Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-8">
           {/* Card 1: In-Person Program */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
