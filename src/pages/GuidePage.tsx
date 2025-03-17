@@ -6,6 +6,7 @@ import YourJourneySection from '../components/YourJourneySection';
 import HowInterlinkHelpsSection from '../components/HowInterlinkHelpsSection';
 import SpeakingEnglishPaysOffSection from '../components/SpeakingEnglishPaysOffSection';
 import ComparisonTableSection from '../components/ComparisonTableSection';
+import StudyOptionsSection from '../components/StudyOptionsSection';
 
 const GuidePage = () => {
   const [isGuideExpanded, setIsGuideExpanded] = useState(false);
@@ -267,6 +268,9 @@ const GuidePage = () => {
       
       {/* NEW SECTION: Comparison Table */}
       <ComparisonTableSection />
+      
+      {/* NEW SECTION: Study Options */}
+      <StudyOptionsSection />
       
       <Footer />
     </div>

@@ -217,7 +217,7 @@ const ComparisonTableSection = () => {
               </div>
               <div>
                 <h4 className="font-bold text-gray-800 mb-1">Large Competitors</h4>
-                <p className="text-gray-700">Expensive, but not personalized</p>
+                <p className="text-gray-700">Solid, but expensive and not personalized</p>
               </div>
             </div>
           </div>
